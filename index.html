@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Portal - GambiaEdu</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome, Student</h1>
+    <a href="home.html">Home</a>
+    <nav>
+      <ul>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Assignments</a></li>
+        <li><a href="#">Timetable</a></li>
+        <li><a href="#">Grades</a></li>
+        <li><a href="#">Forum</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Study Resources -->
+    <section id="resources">
+      <h2>Study Resources</h2>
+      <ul>
+        <li><a href="#">Math Notes - Algebra</a></li>
+        <li><a href="#">Physics Video - Motion</a></li>
+        <li><a href="#">History Quiz - Colonialism</a></li>
+        <li><a href="#">Past Exam - English 2023</a></li>
+      </ul>
+    </section>
+
+    <!-- Assignment Deadlines -->
+    <section id="assignments">
+      <h2>Assignments</h2>
+      <ul>
+        <li>Biology Homework - Due: April 15, 2025</li>
+        <li>Literature Essay - Due: April 18, 2025</li>
+      </ul>
+    </section>
+
+    <!-- Timetable -->
+    <section id="timetable">
+      <h2>Timetable</h2>
+      <p>Monday: Math - 8:00 AM | Science - 10:00 AM</p>
+      <p>Tuesday: English - 9:00 AM | History - 11:00 AM</p>
+    </section>
+
+    <!-- Grades -->
+    <section id="grades">
+      <h2>Performance</h2>
+      <ul>
+        <li>Math: 85%</li>
+        <li>Science: 78%</li>
+        <li>English: 92%</li>
+      </ul>
+    </section>
+
+    <!-- Forum -->
+    <section id="forum">
+      <h2>Discussion Forum</h2>
+      <form id="forumForm">
+        <input type="text" id="forumTopic" placeholder="Enter a topic..." required />
+        <textarea id="forumMessage" rows="2" placeholder="Write your message..." required></textarea>
+        <button type="submit">Post</button>
+      </form>
+      <ul id="forumPosts"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GambiaEdu. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
